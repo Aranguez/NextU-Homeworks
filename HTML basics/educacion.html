@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Hoja de vida digital - Educación</title>
+</head>
+<body>
+  <div class="contenedor">
+    <img src="logo.svg" class="logo" alt="logo" width="100">
+    <h1>Hoja de vida</h1>
+    <h2>Leandro Aranguez</h2>
+    <h3>19/10/1995 Buenos Aires, Argentina</h3>
+
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="educacion.html">Educación</a>
+      <a href="experiencia.html">Experiencia</a>
+    </nav>
+
+    <h2>Educación</h2>
+
+    <table>
+      <tr>
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+      </tr>
+
+      <tr>
+        <td>2017</td>
+        <td>Educación IT</td>
+        <td>Buenos Aires</td>
+        <td>Sí</td>
+      </tr>
+
+      <tr>
+        <td>2017</td>
+        <td>Educación IT</td>
+        <td>Buenos Aires</td>
+        <td>Sí</td>
+      </tr>
+
+      <tr>
+        <td>2017</td>
+        <td>Educación IT</td>
+        <td>Buenos Aires</td>
+        <td>Sí</td>
+      </tr>
+    </table>
+
+    <form action="index.html" method="post">
+        <h3>Agregar Estudios</h3>
+
+        <div>
+            Año:
+            <select class="" name="año">
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017" selected>2017</option>
+            </select>
+        </div>
+
+        <div>
+            Institución:
+            <input type="text" name="" value="">
+        </div>
+
+        <div>
+            Lugar:
+            <textarea name="name" rows="8" cols="80" required></textarea>
+        </div>
+
+        Culminó?
+        <label for="si">Si</label>
+        <input type="radio" name="culmino" id="si">
+
+        <label for="no">No</label>
+        <input type="radio" name="culmino" id="no">
+
+        <button type="button" name="button">Enviar</button>
+    </form>
+
+    <footer>
+        <p>leandro-aranguez@hotmail.com</p>
+        <p>15-5821-7313</p>
+        <a href="https://www.facebook.com/leandro.aranguez.5">Facebook</a>
+        <p>Potosi 1193 - San Justo - Buenos Aires - Argentina</p>
+    </footer>
+</div>
+</body>
+</html>
